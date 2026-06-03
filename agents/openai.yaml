@@ -1,0 +1,7 @@
+interface:
+  display_name: "Python 代码检视"
+  short_description: "按公司规范检视 Python diff。"
+  default_prompt: "Use $python-code-review to review this Python PR or diff for correctness, tests, maintainability, and company standards."
+
+policy:
+  allow_implicit_invocation: true
